@@ -1,16 +1,55 @@
-# React + Vite
+# 🎬 Text-to-Video AI Agent (MERN Stack)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a **Text-to-Video AI Agent** built using the **MERN stack (MongoDB not used in this prototype, React + Node + Express)**.  
+The system allows users to enter a text prompt, select a video style, and generate a corresponding demo video through a REST API.
 
-Currently, two official plugins are available:
+> **Note:**  
+> This is a **cost-efficient demo prototype**. Instead of a paid AI video model, the backend returns style-based demo videos while preserving a real-world AI architecture and data flow.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- ✅ Text input for video description  
+- ✅ Multiple styles: Cinematic, Realistic, Animation, Cartoon, Fantasy  
+- ✅ Adjustable duration slider  
+- ✅ Real-time video preview  
+- ✅ Downloadable video output  
+- ✅ Clean and responsive UI  
+- ✅ REST API architecture  
+- ✅ Cache-safe video loading  
+- ✅ Modular frontend & backend separation  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🏗️ Tech Stack
+
+### Frontend
+- React (Vite)
+- Axios
+- Inline CSS (responsive design)
+
+### Backend
+- Node.js  
+- Express.js  
+- CORS  
+- REST API  
+
+### Deployment (Recommended)
+- Frontend → **Vercel**  
+- Backend → **Render**  
+
+---
+
+## 📁 Project Structure
+
+TEXT-TO-VIDEO/
+│
+├── backend/
+│ ├── server.js
+│ └── .env
+│
+└── frontend/
+├── src/
+│ └── App.jsx
+└── package.json
