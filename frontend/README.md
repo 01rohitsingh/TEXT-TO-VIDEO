@@ -44,12 +44,21 @@ The system allows users to enter a text prompt, select a video style, and genera
 ## 📁 Project Structure
 
 TEXT-TO-VIDEO/
+<br>
 │
+<br>
 ├── backend/
+<br>
 │ ├── server.js
+<br>
 │ └── .env
+<br>
 │
+<br>
 └── frontend/
+<br>
 ├── src/
+<br>
 │ └── App.jsx
+<br>
 └── package.json
